@@ -1,4 +1,11 @@
 Simple management shopping cart with laravel with payment method using Stripe.com API.
+to use this you should make some change like change in : 
+- .env file : change db user/db name....
+- public/js/checkout.js : put you publickey of stripe.com
+- ProductController.php : put your secret key of stripe.com
+- run : php artisan migrate
+- run : php artisan db:seed
+
 
 1- add product to cart
 
@@ -20,7 +27,6 @@ Simple management shopping cart with laravel with payment method using Stripe.co
 
 &nbsp;
 
-Get Iton GITHUB : https://github.com/tilmido/laravel-shopping-cart
 
 &nbsp;
 
